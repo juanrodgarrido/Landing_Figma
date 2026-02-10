@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "PoppinsSB";
+  src: url("Fonts/Poppins-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+body{
+    font-family: "PoppinsSB", sans-serif;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: right;
+    box-shadow: 0px 0px 3px gray;
+    padding-bottom: 0.6rem;
+    padding-top: 0.6rem;
+    align-content: center;    
+    
+}
+
+.headerizq{
+    
+}
+
+.headerder{
+    display: flex;
+    width: 50%;
+    justify-content: right; 
+    font-size: 19px;  
+    
+}
+
+.headerder p{
+    padding-right: 3rem;
+}
+
+.but1 {
+  background-color: white;
+  color: #000;
+  border: 1px solid #c9c9c9;  
+  border-radius: 13px;  
+  font-size: 19px;  
+  cursor: pointer;
+  font-family: "PoppinsSB", sans-serif;
+  
+}
+
+.but1:hover {
+  background-color: black;
+  color: #fff;
+}
