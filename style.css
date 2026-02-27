@@ -40,6 +40,7 @@ header {
   position: sticky;
   background-color: white;
   top: 0;
+  z-index: 100;
   
 }
 
@@ -123,6 +124,7 @@ header {
   font-family: "PoppinsB", sans-serif;
   font-size: 64px;
   width: 50%;
+   min-width: 60rem;
   line-height: 1.1;
   text-align: center;
 }
@@ -139,6 +141,7 @@ header {
   font-family: "PoppinsRG", sans-serif;
   font-size: 20px;
   width: 40%;
+  min-width: 40rem;
   text-align: center;
   color: #6e6e7e;
 }
@@ -148,6 +151,7 @@ header {
   display: flex;
   flex-direction: column;
   width: 40%;
+  min-width: 40rem;
   
 }
 
@@ -174,6 +178,7 @@ header {
 
 .but2.b2 {
   width: 22%;
+  min-width: 10rem;
   
 }
 
