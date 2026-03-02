@@ -194,6 +194,7 @@ header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   width: 40%;
+  margin-bottom: 4rem;
 }
 
 .stat{
@@ -212,4 +213,54 @@ header {
   color:#6e6e7e;
   font-size: 12px;
   margin-top: 0;
+}
+
+/* -----------------------------FEATURES----------------------------- */
+
+.features{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+}
+
+.fh1{
+   font-family: "PoppinsB", sans-serif;
+  font-size: 40px;
+  width: 70%;
+   min-width: 65rem;
+  line-height: 1.1;
+  text-align: center;  
+}
+
+.fh1 p{
+  margin-bottom: 0.5rem;
+}
+
+.paneles{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 80%;
+  margin-top: 2rem;
+   min-width: 65rem;
+   justify-items: center;
+}
+.panel{
+  border: 2px solid #c9c9c9;
+  border-radius: 9px;
+  width: 80%;
+  
+}
+.icono{
+  margin-top: 1rem;
+  margin-left: 1rem;
+  background-color: #E5E5E7;
+  padding: 0.3rem 0.4rem;
+  border-radius: 13px;
+  line-height: 0;
+  width: fit-content;
+}
+svg{
+  width: 40px;
+  height: 40px;
 }
