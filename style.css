@@ -22,6 +22,22 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "PoppinsM";
+  src: url("Fonts/Poppins-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PoppinsL";
+  src: url("Fonts/Poppins-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
   font-family: "PoppinsSB", sans-serif;
   margin: 0;
@@ -118,6 +134,7 @@ header {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  background-color: #F5F5F7;
 }
 
 .h1 {
@@ -140,11 +157,19 @@ header {
 .h2 {
   font-family: "PoppinsRG", sans-serif;
   font-size: 20px;
+  
+  
+  text-align: center;
+  color: #6e6e7e;  
+  margin-top: 0.7rem;
+}
+
+.h2.big{
   width: 40%;
   min-width: 40rem;
-  text-align: center;
-  color: #6e6e7e;
 }
+
+
 
 .cta {
   margin-top: 2rem;
@@ -225,12 +250,16 @@ width: 100%;
 }
 
 .fh1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
    font-family: "PoppinsB", sans-serif;
   font-size: 40px;
   width: 70%;
    min-width: 65rem;
   line-height: 1.1;
   text-align: center;  
+  margin-top: 2rem;
 }
 
 .fh1 p{
@@ -241,10 +270,12 @@ width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   width: 80%;
-  margin-top: 2rem;
+  margin-top: 6rem;
    min-width: 65rem;
    justify-items: center;
-}
+  margin-bottom: 7rem;
+  }
+
 .panel{
   border: 2px solid #c9c9c9;
   border-radius: 9px;
@@ -263,4 +294,128 @@ width: 100%;
 svg{
   width: 40px;
   height: 40px;
+}
+
+.gridtext{
+  margin-left: 1.2rem;
+  font-size: 19px;
+}
+
+.gtitulo{
+  font-family: "PoppinsM", sans-serif;
+  margin-bottom: 0.3rem;
+  
+}
+
+.gdescr{
+  font-family: "PoppinsL", sans-serif;
+  color: #6E6E7E;
+  margin-top: 0;
+}
+
+.tick{
+  width: 30px;
+  height: 30px;
+}
+
+.griditemlist{
+  display: flex; 
+  margin-left: 1.2rem;
+  
+
+}
+
+.griditemtext{
+  font-family: "PoppinsL", sans-serif;
+  font-size: 17px;
+  margin-top: 0.05rem;
+  margin-left: 0.5rem;
+}
+
+.gridlist{
+  margin-bottom: 0.6rem;
+}
+
+/* -----------------------------HOW TO----------------------------- */
+
+.howto{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+background-color: #F5F5F7;
+}
+
+.steps{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 75%;  
+  justify-items: center;
+  margin-top: 3rem;  
+  margin-bottom: 7rem;
+  position: relative;
+  z-index: 2;
+  
+}
+
+.step{
+  display: flex;
+  flex-direction: column;  
+  text-align: center;
+  border: 2px solid #c9c9c9;
+  border-radius: 9px;
+  width: 80%;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  background-color: white;
+  
+  
+  
+
+}
+
+.gtitulo.paso{
+  font-size: 19px;
+}
+.gdescr.paso{
+width: 80%;
+font-size: 17px;
+
+}
+
+.circulo{
+  font-family: "PoppinsB", sans-serif;
+  width:4.5rem;
+  height:4.5rem;
+  background:#6c4cff;
+  color:white;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size: 25px;
+  margin-top:2rem;
+  margin-bottom: 0;
+  
+}
+
+.texto{
+  margin-bottom: 5rem;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.steps::before{
+  content: "";
+  position: absolute;
+  height: 2px;
+  background: black;
+  width: 80%;
+  z-index: 1;
+  top: 5.5rem;
+
 }
