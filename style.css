@@ -134,7 +134,13 @@ header {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  background-color: #F5F5F7;
+  background: linear-gradient(
+  to bottom,
+  rgba(238, 242, 255, 0.5),
+  rgba(255, 255, 255, 0.5),
+  rgba(239, 246, 255, 0.5)
+);
+
 }
 
 .h1 {
@@ -157,10 +163,10 @@ header {
 .h2 {
   font-family: "PoppinsRG", sans-serif;
   font-size: 20px;
-  
+  color: #6e6e7e; 
   
   text-align: center;
-  color: #6e6e7e;  
+   
   margin-top: 0.7rem;
 }
 
@@ -417,5 +423,477 @@ font-size: 17px;
   width: 80%;
   z-index: 1;
   top: 5.5rem;
+
+}
+
+/* -----------------------------TESTIMONIALS----------------------------- */
+
+h2{
+text-align:center;
+font-size:32px;
+margin-bottom:10px;
+font-family: "PoppinsB", sans-serif;
+font-size: 40px;
+}
+
+.subtitle{
+text-align:center;
+font-family: "PoppinsRG", sans-serif;
+  font-size: 20px;
+  color: #6e6e7e; 
+margin-bottom:40px;
+margin-top: 0;
+}
+
+.cardmsg{
+  font-family: "PoppinsL", sans-serif;
+  
+}
+
+
+
+.cardnombre{
+  margin: 0;
+  font-family: "PoppinsM", sans-serif;
+  
+}
+
+.cardtrabajo{
+  font-family: "PoppinsL", sans-serif;
+  color:#6e6e7e;
+  
+}
+
+
+.cards{
+display:flex;
+gap:3rem;
+justify-content:center;
+flex-wrap:wrap;
+margin-bottom: 5rem;
+}
+
+.card{
+background:white;
+padding:25px;
+
+width:320px;
+border: 2px solid #c9c9c9;
+  border-radius: 9px;
+}
+
+.stars{
+color:#f5b301;
+margin-bottom:0.5rem;
+font-size: 25px;
+
+}
+
+.card p{
+font-size:15px;
+color:#444;
+margin-top: 0;
+
+}
+
+.user{
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+.user img{
+border-radius:50%;
+}
+
+.user span{
+font-size:12px;
+color:#777;
+display:block;
+}
+
+
+/* -----------------------------PRICING----------------------------- */
+
+.pricing{
+background:#efefef;
+}
+
+.pricetitle{
+  padding-top: 3rem;
+}
+
+.pricing-cards{
+display:flex;
+justify-content:center;
+gap:60px;
+flex-wrap:wrap;
+margin-top: 4rem;
+padding-bottom: 7rem;
+
+}
+
+.price-card{
+background:white;
+padding:15px;
+border: 2px solid #c9c9c9;
+  border-radius: 9px;
+width:23rem;
+
+text-align:left;
+}
+
+.price-card.featured{
+border:2px solid black;
+}
+
+.h3{
+font-family: "PoppinsM", sans-serif;
+margin-bottom: 0;
+font-size: 19px;
+}
+
+
+.small{
+  font-family: "PoppinsL", sans-serif;
+font-size:18px;
+color:#6E6E7E;
+margin-bottom:20px;
+margin-top: 0.5rem;
+}
+
+.price{
+font-size:32px;
+font-family: "PoppinsSB", sans-serif;
+margin-bottom:15px;
+margin-left: 0.5rem;
+}
+
+.mes{
+  font-family: "PoppinsL", sans-serif;
+}
+
+.price span{
+font-size:14px;
+color:#777;
+}
+
+
+
+.btn{
+width:100%;
+padding:10px;
+border-radius:6px;
+border:none;
+cursor:pointer;
+margin-bottom:20px;
+background-color: white;
+border: 1px solid #c9c9c9;
+  border-radius: 9px;
+  font-family: "PoppinsM", sans-serif;
+  font-size: 16px;
+
+}
+
+.pricetitlesub{
+  margin-left: 0.5rem;
+}
+.lista{
+  margin-top: 1rem;
+}
+
+.btn.dark{
+background:black;
+color:white;
+}
+
+/* -----------------------------CTA----------------------------- */
+
+
+
+.cta2{
+  background:linear-gradient(90deg,#2f65d9,#5c49d8);
+  border-radius:16px;
+  text-align:center;
+  justify-items: center;
+  margin-top: 5rem;
+  width: 97%;
+  justify-self: center;
+}
+
+.ctah1{
+  font-family: "PoppinsSB", sans-serif;
+  color:white;
+  font-size: 40px; 
+  margin-bottom: 0; 
+}
+
+.ctah2{
+  font-family: "PoppinsL", sans-serif;
+  color:white;
+  font-size: 20px;
+  margin-top: 0.5rem;
+  margin-bottom: 3rem;
+}
+
+.but2.b2.b3{
+  color: black;
+  background-color: white;
+  font-family: "PoppinsSB", sans-serif;
+}
+.ctatitle{
+  padding-top: 1rem;
+}
+
+.email.e2{
+  width: 50%;
+}
+
+.cta30days{
+  font-family: "PoppinsRG", sans-serif;
+  color: white;
+  font-size: 14px;  
+}
+
+.cta30days-container{
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* -----------------------------FOOTER----------------------------- */
+
+.footer{
+margin-top:80px;
+background:#f7f7f7;
+padding:60px 20px;
+}
+
+.footer-container{
+
+max-width: 75%;
+display:flex;
+justify-content:space-between;
+flex-wrap:wrap;
+gap:40px;
+}
+
+.footer-brand{
+max-width:250px;
+margin-left: 1rem;
+}
+
+.footer-brand h2{
+font-size:30px;
+justify-self: left;
+margin-top: 0;
+
+}
+
+.footer-brand span{
+color:#5a4bd8;
+}
+
+.footer-brand p{
+color:#6E6E7E;
+margin-top:10px;
+font-size:15px;
+font-family: "PoppinsL", sans-serif;
+}
+
+.footer-links{
+display:flex;
+flex-direction:column;
+gap:8px;
+}
+
+.footer-links p{
+margin-bottom:10px;
+font-family: "PoppinsM", sans-serif;
+}
+
+.footer-links a{
+  font-family: "PoppinsL", sans-serif;
+text-decoration:none;
+color:#6E6E7E;
+font-size:15px;
+}
+
+.footer-links a:hover{
+color:black;
+}
+
+/* -----------------------------RESPONSIVE----------------------------- */
+
+@media (max-width: 700px){
+
+/* HEADER */
+
+header{
+flex-direction:column;
+align-items:center;
+position: relative;
+}
+
+
+
+.headerizq p{
+  padding: 0;
+}
+.headerizq,
+.headerder{
+width:100%;
+justify-content:center;
+}
+
+.headerder{
+margin-top:0.5rem;
+}
+
+
+
+.but2.b1{
+  margin-top: 0.5rem;
+}
+
+.but1{
+  margin-top: 0.5rem;
+}
+
+
+/* HERO */
+
+.h1{
+font-size:36px;
+width:90%;
+min-width:unset;
+}
+
+.h2.big{
+width:90%;
+min-width:unset;
+font-size:18px;
+}
+
+.cta{
+width:90%;
+min-width:unset;
+}
+
+
+.email{
+width:60%;
+margin-right:0;
+margin-bottom:0.5rem;
+}
+
+.but2.b2{
+width:20%;
+justify-self: center;
+margin: 0;
+}
+
+.stats{
+grid-template-rows:1fr;
+width:80%;
+gap:1rem;
+}
+
+
+/* FEATURES */
+
+.fh1{
+font-size:30px;
+width:90%;
+min-width:unset;
+}
+
+.paneles{
+grid-template-columns:1fr;
+width:90%;
+min-width:unset;
+gap:2rem;
+margin-top:3rem;
+}
+
+.panel{
+width:100%;
+}
+
+
+/* HOW TO */
+
+.steps{
+grid-template-columns:1fr;
+width:90%;
+gap:2rem;
+}
+
+.steps::before{
+display:none;
+}
+
+.step{
+width:100%;
+}
+
+
+/* TESTIMONIALS */
+
+.cards{
+flex-direction:column;
+align-items:center;
+gap:2rem;
+}
+
+.card{
+width:90%;
+}
+
+
+/* PRICING */
+
+.pricing-cards{
+flex-direction:column;
+align-items:center;
+gap:2rem;
+}
+
+.price-card{
+width:90%;
+}
+
+
+/* CTA */
+
+.ctah1{
+font-size:28px;
+padding:0 1rem;
+}
+
+.ctah2{
+font-size:16px;
+padding:0 1rem;
+}
+
+.email.e2{
+width:100%;
+}
+
+.but2.b2.b3{
+width:20%;
+}
+
+
+/* FOOTER */
+
+.footer-container{
+flex-direction:row;
+max-width:90%;
+gap:2rem;
+}
+
+.footer-brand{
+margin-left:0;
+}
 
 }
