@@ -857,7 +857,7 @@ position: relative;
   position: absolute;
   height: 2px;
   background: black;
-  width: 100%;
+  width: 150%;
   z-index: 1;
   top: 33rem;
   transform: rotate(90deg);
