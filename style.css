@@ -62,7 +62,7 @@ header {
 
 .headerizq {
   display: flex;
-  width: 50%;
+  width: 30%;
   justify-content: left;
   font-size: 15px;
 }
@@ -80,11 +80,16 @@ header {
 
 .headerder {
   display: flex;
-  width: 50%;
+  width: 70%;
   justify-content: right;
   align-items: center;
   font-size: 15px;
   flex-wrap: wrap;
+}
+
+.moon{
+  margin-right: 1rem;
+  cursor: pointer;
 }
 
 .headerizq p {
@@ -118,7 +123,7 @@ header {
   cursor: pointer;
   font-family: "PoppinsSB", sans-serif;
   height: 2.5rem;
-  margin-right: 2rem;
+  margin-right: 1.5rem;
   padding: 0px 0.5rem;
 }
 
@@ -435,12 +440,21 @@ font-size: 17px;
 
 /* -----------------------------TESTIMONIALS----------------------------- */
 
+.testimonios{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.testimonios h2{
+  margin-top: 0;
+}
 h2{
 text-align:center;
 font-size:32px;
 margin-bottom:10px;
 font-family: "PoppinsB", sans-serif;
 font-size: 40px;
+
 }
 
 .subtitle{
@@ -477,7 +491,7 @@ display:flex;
 gap:3rem;
 justify-content:center;
 flex-wrap:wrap;
-margin-bottom: 5rem;
+
 }
 
 .card{
@@ -621,14 +635,17 @@ color:white;
 
 /* -----------------------------CTA----------------------------- */
 
+.fcta2{
+  background-color: white;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
 
-
-.cta2{
+.cta2{  
   background:linear-gradient(90deg,#2f65d9,#5c49d8);
   border-radius:16px;
   text-align:center;
-  justify-items: center;
-  margin-top: 5rem;
+  justify-items: center;  
   width: 97%;
   justify-self: center;
 }
@@ -675,7 +692,6 @@ color:white;
 /* -----------------------------FOOTER----------------------------- */
 
 .footer{
-margin-top:80px;
 background:#f7f7f7;
 padding:60px 20px;
 }
@@ -866,6 +882,8 @@ position: relative;
 
 
 /* TESTIMONIALS */
+
+
 
 .testimonios h2{
   font-size:30px;
