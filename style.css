@@ -43,6 +43,45 @@ body {
   margin: 0;
 }
 
+
+
+/* -----------------------------DARKMODE----------------------------- */
+
+body.darkmode header, body.darkmode footer, body.darkmode .pricing, body.darkmode .card, body.darkmode .howto, body.darkmode .hero{
+  background: #161d25; /* Uso background ya que es lo que uso en el hero para hacer el grading del modo normal*/
+  color: white;
+}
+
+
+body.darkmode .features, body.darkmode .step, body.darkmode .testimonios, body.darkmode .price-card{
+  background-color: #1E2732;
+  color: white;
+}
+
+body.darkmode .card p{
+  color: white;
+}
+
+
+body.darkmode .fcta2{
+  background-color: #1E2732;
+}
+
+.sunicon {
+    display: none;
+}
+
+body.darkmode .moonicon{
+  display: none;
+}
+
+body.darkmode .sunicon{
+  display: block;
+}
+
+
+
+
 /* -----------------------------HEADER -----------------------------*/
 
 header {
@@ -87,9 +126,10 @@ header {
   flex-wrap: wrap;
 }
 
-.moon{
+.iconmode{
   margin-right: 1rem;
   cursor: pointer;
+  height: 40px;
 }
 
 .headerizq p {
